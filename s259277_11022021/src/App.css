@@ -1,0 +1,235 @@
+/*GENERALE*/
+
+@media screen and (max-width: 768px){
+    .chartCol {
+      height: 150px;
+    }
+}
+
+.App {
+  background-color: #e5e5e5;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.row {
+  justify-content: center;
+  margin: 0;
+}
+
+.col {
+  padding: 0;
+}
+
+
+img {
+  width: 28px;
+  height: 28px;
+  margin: 7px;
+}
+
+
+
+
+/*HOME*/
+
+.home {
+  max-width: 600px;
+  height: 340px;
+  margin: auto;
+}
+
+.dx {
+  flex-grow: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px lightgray;
+  padding: 0;
+}
+
+.toSettingContainer {
+  width: 196px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.toSettingContainer:hover {
+  width: 280px;
+}
+
+.sx {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px lightgray;
+  padding: 0;
+}
+
+.homeRow {
+  height: 100%;
+}
+
+.homeMode {
+  flex-grow: 2;
+}
+
+.dateTime {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tempRow {
+  flex-grow: 2;
+}
+
+.tempCol {
+  font-weight: bold;
+  font-size: 33px;
+}
+
+.time {/*creata perché da timeCol non dimensionava il testo*/
+  font-weight: bold;
+  font-size: 300%;
+  height: 60px;
+}
+.timeCol {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date {/*creata perché da dateCol non dimensionava il testo*/
+  font-size: 150%;
+}
+
+.dateCol {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 12px;
+}
+
+.toSetting {
+  width: 50px;
+  height: 50px;
+  transition: 0.4s;
+}
+
+.toSetting:hover {
+  width: 60px;
+  height: 60px;
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+
+.toSetting:active {
+  width: 50px;
+  height: 50px;
+  transition: 0s;
+}
+
+
+
+/*CONFIGURAZIONE*/
+
+.configurazione {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 0;
+}
+
+.imgButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+.sx {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px lightgray;
+  padding: 0;
+}
+
+.chartContainer {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px lightgray;
+}
+
+.chartRow {
+  width: 100%;
+  height: 100%;
+}
+
+.chartCol {
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 8px 8px 10px lightgray;
+  height: auto;
+}
+
+.panelButton {
+  margin-top: 7px;
+  margin-bottom: 15px;
+}
+
+.confCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 150px;
+
+}
+
+.backArrow {
+
+}
+
+.imgButton:hover {
+  background-color: #e2e1df;
+  border-radius: 100%;
+}
+
+.imgButton:active {
+  background-color: #d8d7d5;
+}
+
+
